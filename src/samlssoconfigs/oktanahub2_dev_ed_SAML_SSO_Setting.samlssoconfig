@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <errorUrl>https://eduardotraining.my.salesforce.com?login=1</errorUrl>
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>UserId</identityMapping>
+    <issuer>https://oktanahub2-dev-ed.my.salesforce.com</issuer>
+    <loginUrl>https://oktanahub2-dev-ed.my.salesforce.com/idp/endpoint/HttpPost</loginUrl>
+    <name>oktanahub2-dev-ed SAML SSO Setting</name>
+    <oauthTokenEndpoint>https://eduardotraining.my.salesforce.com/services/oauth2/token?so=00Df2000001MxsF</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSigningCertId>0P1f2000001wpqP</requestSigningCertId>
+    <salesforceLoginUrl>https://eduardotraining.my.salesforce.com?so=00Df2000001MxsF</salesforceLoginUrl>
+    <samlEntityId>https://saml.salesforce.com/00Df2000001MxsFEAS</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIErDCCA5SgAwIBAgIOAVrJvow2AAAAAE7Sk1QwDQYJKoZIhvcNAQELBQAwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzEzTWFyMjAxN18yMjE2MzIxGDAWBgNVBAsMDzAwRDQ2MDAwMDAwYm9SVDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMTcwMzEzMjIxNjMyWhcNMTgwMzEzMTIwMDAwWjCBkDEoMCYGA1UEAwwfU2VsZlNpZ25lZENlcnRfMTNNYXIyMDE3XzIyMTYzMjEYMBYGA1UECwwPMDBENDYwMDAwMDBib1JUMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJK8YcMdMlzfwhi4xQCiY1/GVGDYm41Z9xl/u1UjiIsSVc2d34GgD6VdaJ8p8fCF5k04SUy1JROI/BFekXe5CPeafzx25PeH4S0SSuec5MTqhsCLR+gKQXCDYA6X9IwdX6EfJ0Fs5eWZ+R7/ZaL2FTVBVWihfqO9dEY0l+As1uA4JhIUJbZrpFyKX+MldyVJOh5M9V7rTLVCzPGQSq/fv/Oy8lWq0/pVcgZpwSacj8JDjIDSPWodv8UJ2eB4YSRamjyLfKth0vVfkZAwbyjqHeSXBAshjX9I5H1/iWJhQx27cJJgkrgt6EEWf1Eq0uY97PAmS7qOJE2VqN18YztAzqECAwEAAaOCAQAwgf0wHQYDVR0OBBYEFPF4dvMDnZfAYmVSRKCojHyLV5BoMA8GA1UdEwEB/wQFMAMBAf8wgcoGA1UdIwSBwjCBv4AU8Xh28wOdl8BiZVJEoKiMfItXkGihgZakgZMwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzEzTWFyMjAxN18yMjE2MzIxGDAWBgNVBAsMDzAwRDQ2MDAwMDAwYm9SVDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgFayb6MNgAAAABO0pNUMA0GCSqGSIb3DQEBCwUAA4IBAQBzKE6IKNKADz33yBaCKo1YisiEEp5y73g+1SRKbVDiZTqPMVesuJkdlquSiiOMDhcV9qGMSKCZ9vjXwIC4sLlc+U5zlbf9y0F+UKEYku0Vs4mzM7Kgfu/maZudTTSw/9b+lTK83L1vKlKWUT+UkEHi0FVX6ZyI6wRS4O9hwL99gfwhjrWLjc/Eib80T7791352u5VMWK1Zk0f/hfZVVF0mRI/JOwpdUxLs+tW08zbs9T26C/hmGRZ/j/0hj4wz9Wp5hvdGK8aMAXj4S9FRbaC2QPV5qz8EcxivntMbcI+WlqlAlJWA/wW0aSAxi3zRQWW9XNSJ0pKB94wtRHCQ+FWz</validationCert>
+</SamlSsoConfig>
