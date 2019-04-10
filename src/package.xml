@@ -366,13 +366,7 @@
     <members>LeadHistory</members>
     <members>LeadShare</members>
     <members>LeadStatus</members>
-    <members>LightningExitByPageMetrics</members>
     <members>LightningExperienceTheme</members>
-    <members>LightningToggleMetrics</members>
-    <members>LightningUsageByAppTypeMetrics</members>
-    <members>LightningUsageByBrowserMetrics</members>
-    <members>LightningUsageByFlexiPageMetrics</members>
-    <members>LightningUsageByPageMetrics</members>
     <members>ListEmail</members>
     <members>ListEmailChangeEvent</members>
     <members>ListEmailIndividualRecipient</members>
@@ -426,8 +420,6 @@
     <members>OrgLifecycleNotification</members>
     <members>OrgWideEmailAddress</members>
     <members>Organization</members>
-    <members>OutgoingEmail</members>
-    <members>OutgoingEmailRelation</members>
     <members>OwnedContentDocument</members>
     <members>OwnerChangeOptionInfo</members>
     <members>PackageLicense</members>
@@ -482,6 +474,8 @@
     <members>RecordType</members>
     <members>RelationshipDomain</members>
     <members>RelationshipInfo</members>
+    <members>Repo__ChangeEvent</members>
+    <members>Repo__c</members>
     <members>Report</members>
     <members>ReportFeed</members>
     <members>SOSDeployment</members>
@@ -633,39 +627,39 @@
   </types>
   <types>
     <name>Report</name>
-    <members>Zendesk__Zendesk_for_Salesforce</members>
     <members>unfiled$public</members>
-    <members>unfiled$public/SampleReportofCases</members>
+    <members>Zendesk__Zendesk_for_Salesforce</members>
     <members>unfiled$public/SampleReportLastModifiedBy</members>
-    <members>unfiled$public/SampleReportUsersLoggedIn</members>
-    <members>unfiled$public/SampleReportofDocuments</members>
-    <members>unfiled$public/SampleReportSalesPipelinebyStage</members>
-    <members>unfiled$public/SampleReportClosedSales</members>
-    <members>unfiled$public/SampleReportSolutionsAdded</members>
-    <members>unfiled$public/SampleReportCustomReportsbyUser</members>
-    <members>unfiled$public/SampleReportsLeadsbyStatus</members>
-    <members>unfiled$public/SampleReportLoginLeaderboard</members>
-    <members>unfiled$public/SampleReportofOpenTasks</members>
-    <members>unfiled$public/SampleReportMonthtoDateTrending</members>
-    <members>unfiled$public/SampleReportCasesStatusbyRep</members>
-    <members>unfiled$public/SampleReportofReports</members>
-    <members>unfiled$public/SampleReportSalesLeaderboard</members>
-    <members>unfiled$public/SampleReportPipelineByCloseMonth</members>
-    <members>unfiled$public/SampleReportActiveUsers</members>
-    <members>unfiled$public/SampleReportofOpportunities</members>
-    <members>unfiled$public/SampleReportofAccounts</members>
-    <members>unfiled$public/SampleReportofTasksandActivities</members>
-    <members>unfiled$public/SampleReportDocumentLibrary</members>
-    <members>unfiled$public/SampleReportOpenDeals</members>
-    <members>unfiled$public/SampleReportOpenCasesByPriority</members>
-    <members>unfiled$public/SampleReportPipelineHistory</members>
     <members>unfiled$public/SampleReportofSolutions</members>
     <members>unfiled$public/SampleReportCompletedActivities</members>
-    <members>unfiled$public/SampleReportTopAccounts</members>
-    <members>unfiled$public/SampleReportofContacts</members>
-    <members>unfiled$public/SampleReportLeadsbyLeadSource</members>
-    <members>unfiled$public/SampleReportofLeads</members>
+    <members>unfiled$public/SampleReportDocumentLibrary</members>
+    <members>unfiled$public/SampleReportofTasksandActivities</members>
+    <members>unfiled$public/SampleReportCustomReportsbyUser</members>
+    <members>unfiled$public/SampleReportofAccounts</members>
+    <members>unfiled$public/SampleReportActiveUsers</members>
+    <members>unfiled$public/SampleReportofReports</members>
+    <members>unfiled$public/SampleReportofDocuments</members>
     <members>unfiled$public/SampleReportLoginWallofShame</members>
+    <members>unfiled$public/SampleReportTopAccounts</members>
+    <members>unfiled$public/SampleReportSalesLeaderboard</members>
+    <members>unfiled$public/SampleReportUsersLoggedIn</members>
+    <members>unfiled$public/SampleReportOpenCasesByPriority</members>
+    <members>unfiled$public/SampleReportPipelineHistory</members>
+    <members>unfiled$public/SampleReportofOpenTasks</members>
+    <members>unfiled$public/SampleReportofOpportunities</members>
+    <members>unfiled$public/SampleReportMonthtoDateTrending</members>
+    <members>unfiled$public/SampleReportPipelineByCloseMonth</members>
+    <members>unfiled$public/SampleReportsLeadsbyStatus</members>
+    <members>unfiled$public/SampleReportLoginLeaderboard</members>
+    <members>unfiled$public/SampleReportSalesPipelinebyStage</members>
+    <members>unfiled$public/SampleReportLeadsbyLeadSource</members>
+    <members>unfiled$public/SampleReportSolutionsAdded</members>
+    <members>unfiled$public/SampleReportClosedSales</members>
+    <members>unfiled$public/SampleReportofLeads</members>
+    <members>unfiled$public/SampleReportofCases</members>
+    <members>unfiled$public/SampleReportOpenDeals</members>
+    <members>unfiled$public/SampleReportCasesStatusbyRep</members>
+    <members>unfiled$public/SampleReportofContacts</members>
   </types>
   <types>
     <name>Dashboard</name>
@@ -687,8 +681,8 @@
   </types>
   <types>
     <name>Document</name>
-    <members>Zendesk__Zendesk</members>
     <members>SharedDocuments</members>
+    <members>Zendesk__Zendesk</members>
   </types>
   <types>
     <name>CustomPageWebLink</name>
@@ -701,16 +695,16 @@
   <types>
     <name>EmailTemplate</name>
     <members>unfiled$public</members>
-    <members>unfiled$public/LeadsNewassignmentnotificationSAMPLE</members>
     <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
-    <members>unfiled$public/SUPPORTNewassignmentnotificationSAMPLE</members>
-    <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
-    <members>unfiled$public/ContactFollowUpSAMPLE</members>
-    <members>unfiled$public/SUPPORTCaseResponsewithSolutionSAMPLE</members>
-    <members>unfiled$public/LeadsWebtoLeademailresponseSAMPLE</members>
-    <members>unfiled$public/SUPPORTCaseescalationnotificationSAMPLE</members>
     <members>unfiled$public/SUPPORTWebtoCaseemailresponseSAMPLE</members>
     <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+    <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+    <members>unfiled$public/SUPPORTCaseResponsewithSolutionSAMPLE</members>
+    <members>unfiled$public/LeadsWebtoLeademailresponseSAMPLE</members>
+    <members>unfiled$public/LeadsNewassignmentnotificationSAMPLE</members>
+    <members>unfiled$public/SUPPORTNewassignmentnotificationSAMPLE</members>
+    <members>unfiled$public/ContactFollowUpSAMPLE</members>
+    <members>unfiled$public/SUPPORTCaseescalationnotificationSAMPLE</members>
   </types>
   <types>
     <name>QuickAction</name>
